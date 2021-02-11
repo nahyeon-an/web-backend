@@ -67,7 +67,7 @@ public class CardManagerUI {
     public void printBusinessCards(List<BusinessCard> businessCardList){
         for(BusinessCard businessCard: businessCardList){
             System.out.println(businessCard);
-            System.out.println("---------------------------------------------------------------");
+//            System.out.println("---------------------------------------------------------------");
         }
     }
 
