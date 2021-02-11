@@ -18,4 +18,13 @@ flush privileges;
 mysql -u projectuser -p project_b < ddl.sql
 ```
 
-![생성된 스키마](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Flq3pJ%2FbtqVe74wMfv%2FbeqcSq7pmZ9pOCXvZPMvmk%2Fimg.png)
+<br>
+
+### 스키마 수정
+```
+alter table guestbook add name varchar(100) not null after id;
+```
+
+<br>
+
+![생성된 스키마](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrxuLP%2FbtqWX5DYF41%2FLyr5CGObghoBCQHX0kYbX1%2Fimg.png)
